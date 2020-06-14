@@ -1,0 +1,3 @@
+# to show env var run: docker-machine env Char
+
+eval $(docker-machine env Char)
