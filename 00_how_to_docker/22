@@ -1,0 +1,8 @@
+# In Char virtual machine:
+docker swarm join-token worker
+# Copy the result of command (docker swarm join --token _token_ 192.168.99.100:2377)
+
+docker-machine ssh Aiur
+# Paste the result of the first command
+
+# Run `docker node ls` or `docker info` to check worker Aiur virtual machine
