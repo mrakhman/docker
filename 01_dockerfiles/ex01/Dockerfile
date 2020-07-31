@@ -11,7 +11,13 @@ RUN apt-get update && \
 
 WORKDIR teamspeak3-server_linux_amd64
 
+EXPOSE 9987/udp 10011 30033
+
 ENTRYPOINT ["sh", "ts3server_startscript.sh"]
+
 CMD ["start"]
 
-not finished!
+# docker build -t ex01 .
+# docker run -it -p 9987:9987/udp -p 10011:10011 -p 30033:30033 ex01
+
+# install TeamSpeak client on Mac, connect with opened port ????
