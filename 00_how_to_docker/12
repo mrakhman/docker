@@ -5,3 +5,5 @@ docker run -d \
 	-e MYSQL_ROOT_PASSWORD=Kerrigan \
 	-e MYSQL_DATABASE=zerglings \
 	mysql:5.7
+
+# docker exec -it spawning-pool mysql -p zerglings

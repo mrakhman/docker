@@ -3,3 +3,6 @@ docker run -d \
 	-p 8081:80 \
 	--link spawning-pool:db \
 	phpmyadmin/phpmyadmin
+
+# username: root
+# password: Kerrigan
