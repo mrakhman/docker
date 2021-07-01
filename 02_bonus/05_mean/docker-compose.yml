@@ -1,3 +1,8 @@
+# I only kept docker-compose file.
+# Codebase itself was deleted because all the dependencies were VERY outdated, a lot of vulnerabilities.
+# No code to build here.
+# It was Mongo, Express, React, Node - not exactly MEAN
+
 version: "3.7"
 
 services:
