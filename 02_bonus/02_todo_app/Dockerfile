@@ -1,3 +1,7 @@
+# I only kept Dockerfile.
+# Codebase itself was deleted because all the dependencies were VERY outdated, a lot of vulnerabilities.
+# No code to build here
+
 FROM node:10-alpine
 WORKDIR /app
 COPY package.json yarn.lock ./
